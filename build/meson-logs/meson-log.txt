@@ -1,0 +1,812 @@
+Build started at 2021-01-30T02:11:08.931898
+Main binary: /usr/bin/python3
+Build Options: -Dbuildtype=release
+Python system: Linux
+The Meson build system
+Version: 0.56.2
+Source dir: /home/elory/program/picom
+Build dir: /home/elory/program/picom/build
+Build type: native build
+Project name: picom
+Project version: 8
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: cc /home/elory/program/picom/build/meson-private/sanitycheckc.c -o /home/elory/program/picom/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/elory/program/picom/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 10.2.1 "cc (Debian 10.2.1-6) 10.2.1 20210110")
+C linker for the host machine: cc ld.bfd 2.35.1
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: cc /home/elory/program/picom/build/meson-private/sanitycheckc.c -o /home/elory/program/picom/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/elory/program/picom/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 10.2.1 "cc (Debian 10.2.1-6) 10.2.1 20210110")
+C linker for the build machine: cc ld.bfd 2.35.1
+None of 'AR' are defined in the environment, not changing global flags.
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program git found: YES (/usr/bin/git)
+Running command: /usr/bin/git rev-parse --short=5 HEAD
+--- stdout ---
+3680d
+
+--- stderr ---
+
+
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmp2y_ucilw
+Command line:  cc /home/elory/program/picom/build/meson-private/tmp2y_ucilw/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=c11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdc-predef.h")
+          #error "Header 'stdc-predef.h' could not be found"
+         #endif
+        #else
+         #include <stdc-predef.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "stdc-predef.h" : YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpl3ex110z
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpl3ex110z/testfile.c -o /home/elory/program/picom/build/meson-private/tmpl3ex110z/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wall 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wall: YES 
+meson.build:63: WARNING: Consider using the built-in warning_level option instead of using "-Wall".
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmp_uudbhid
+Command line:  cc /home/elory/program/picom/build/meson-private/tmp_uudbhid/testfile.c -o /home/elory/program/picom/build/meson-private/tmp_uudbhid/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wcast-function-type 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wcast-function-type: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpbtd4uom3
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpbtd4uom3/testfile.c -o /home/elory/program/picom/build/meson-private/tmpbtd4uom3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wignored-qualifiers 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wignored-qualifiers: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpmitaswif
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpmitaswif/testfile.c -o /home/elory/program/picom/build/meson-private/tmpmitaswif/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-parameter-type 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-parameter-type: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmp5yzp51qi
+Command line:  cc /home/elory/program/picom/build/meson-private/tmp5yzp51qi/testfile.c -o /home/elory/program/picom/build/meson-private/tmp5yzp51qi/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wnonnull 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wnonnull: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpeeqh_lhb
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpeeqh_lhb/testfile.c -o /home/elory/program/picom/build/meson-private/tmpeeqh_lhb/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wshadow 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wshadow: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmp_66nrjaa
+Command line:  cc /home/elory/program/picom/build/meson-private/tmp_66nrjaa/testfile.c -o /home/elory/program/picom/build/meson-private/tmp_66nrjaa/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wtype-limits -Wno-type-limits 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-type-limits: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmp2fc7xfza
+Command line:  cc /home/elory/program/picom/build/meson-private/tmp2fc7xfza/testfile.c -o /home/elory/program/picom/build/meson-private/tmp2fc7xfza/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-declaration 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wold-style-declaration: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpf52w6csb
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpf52w6csb/testfile.c -o /home/elory/program/picom/build/meson-private/tmpf52w6csb/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Woverride-init 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Woverride-init: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmprtrvxk6o
+Command line:  cc /home/elory/program/picom/build/meson-private/tmprtrvxk6o/testfile.c -o /home/elory/program/picom/build/meson-private/tmprtrvxk6o/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wsign-compare 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wsign-compare: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmp9qw9_x27
+Command line:  cc /home/elory/program/picom/build/meson-private/tmp9qw9_x27/testfile.c -o /home/elory/program/picom/build/meson-private/tmp9qw9_x27/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wtype-limits 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wtype-limits: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpyuhdcf3_
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpyuhdcf3_/testfile.c -o /home/elory/program/picom/build/meson-private/tmpyuhdcf3_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wuninitialized 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wuninitialized: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpvp44dao6
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpvp44dao6/testfile.c -o /home/elory/program/picom/build/meson-private/tmpvp44dao6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wshift-negative-value 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wshift-negative-value: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpkcmggo_s
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpkcmggo_s/testfile.c -o /home/elory/program/picom/build/meson-private/tmpkcmggo_s/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-but-set-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wunused-but-set-parameter: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpqyhx2jr8
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpqyhx2jr8/testfile.c -o /home/elory/program/picom/build/meson-private/tmpqyhx2jr8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wunused-parameter: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpjtyqqv5a
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpjtyqqv5a/testfile.c -o /home/elory/program/picom/build/meson-private/tmpjtyqqv5a/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-fallthrough 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wimplicit-fallthrough: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpvju2n7rp
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpvju2n7rp/testfile.c -o /home/elory/program/picom/build/meson-private/tmpvju2n7rp/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wunknown-warning-option -Wno-unknown-warning-option 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command-line option '-Wunknown-warning-option'
+
+Compiler for C supports arguments -Wno-unknown-warning-option: NO 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpgl7gyg1t
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpgl7gyg1t/testfile.c -o /home/elory/program/picom/build/meson-private/tmpgl7gyg1t/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-braces -Wno-missing-braces 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-braces: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpvnsgp3em
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpvnsgp3em/testfile.c -o /home/elory/program/picom/build/meson-private/tmpvnsgp3em/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wconversion 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wconversion: YES 
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmp230aozb_
+Command line:  cc /home/elory/program/picom/build/meson-private/tmp230aozb_/testfile.c -o /home/elory/program/picom/build/meson-private/tmp230aozb_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wempty-body 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wempty-body: YES 
+
+Executing subproject test.h method meson 
+
+Project name: test.h
+Project version: undefined
+C compiler for the host machine: cc (gcc 10.2.1 "cc (Debian 10.2.1-6) 10.2.1 20210110")
+C linker for the host machine: cc ld.bfd 2.35.1
+C compiler for the build machine: cc (gcc 10.2.1 "cc (Debian 10.2.1-6) 10.2.1 20210110")
+C linker for the build machine: cc ld.bfd 2.35.1
+Build targets in project: 0
+Subproject test.h finished.
+
+Pkg-config binary for MachineChoice.HOST is not cached.
+None of 'PKG_CONFIG' are defined in the environment, not changing global flags.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/bin/pkg-config (0.29.2)
+Determining dependency 'libev' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libev` -> 1
+
+CMake binary for MachineChoice.HOST is not cached
+None of 'CMAKE' are defined in the environment, not changing global flags.
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Found CMake: /usr/bin/cmake (3.18.4)
+None of 'CMAKE_PREFIX_PATH' are defined in the environment, not changing global flags.
+Extracting basic cmake information
+Try CMake generator: auto
+Calling CMake (['/usr/bin/cmake']) in /home/elory/program/picom/build/meson-private/cmake_libev with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/elory/program/picom/build/meson-private/cmake_libev/CMakeMesonToolchainFile.cmake"
+  - "."
+  -- Module search paths:    ['/', '/opt', '/usr', '/usr/local']
+  -- CMake root:             /usr/share/cmake-3.18
+  -- CMake architectures:    ['x86_64-linux-gnu']
+  -- CMake lib search paths: ['lib', 'lib32', 'lib64', 'libx32', 'share', 'lib/x86_64-linux-gnu']
+Preliminary CMake check failed. Aborting.
+Run-time dependency libev found: NO (tried pkgconfig and cmake)
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpo0ll3qwh
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpo0ll3qwh/testfile.c -o /home/elory/program/picom/build/meson-private/tmpo0ll3qwh/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lev -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library ev found: YES
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmp8ts2m4dl
+Command line:  cc /home/elory/program/picom/build/meson-private/tmp8ts2m4dl/testfile.c -o /home/elory/program/picom/build/meson-private/tmp8ts2m4dl/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'x11' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion x11` -> 0
+1.7.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags x11` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config x11 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lX11
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config x11 --libs` -> 0
+-lX11
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmprzjq95tg
+Command line:  cc /home/elory/program/picom/build/meson-private/tmprzjq95tg/testfile.c -o /home/elory/program/picom/build/meson-private/tmprzjq95tg/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpy51zt2w3
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpy51zt2w3/testfile.c -o /home/elory/program/picom/build/meson-private/tmpy51zt2w3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/10/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/10/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/10/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency x11 found: YES 1.7.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'x11-xcb' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion x11-xcb` -> 0
+1.7.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags x11-xcb` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config x11-xcb --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lX11-xcb -lX11 -lxcb
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config x11-xcb --libs` -> 0
+-lX11-xcb -lX11 -lxcb
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency x11-xcb found: YES 1.7.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-renderutil' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb-renderutil` -> 0
+0.3.9
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb-renderutil` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-renderutil --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb-render-util -lxcb -lxcb-render
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-renderutil --libs` -> 0
+-lxcb-render-util -lxcb -lxcb-render
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb-renderutil found: YES 0.3.9
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-image' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb-image` -> 0
+0.4.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb-image` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-image --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb-image -lxcb -lxcb-shm
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-image --libs` -> 0
+-lxcb-image -lxcb -lxcb-shm
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb-image found: YES 0.4.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xext' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xext` -> 0
+1.3.3
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xext` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xext --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lXext
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xext --libs` -> 0
+-lXext
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xext found: YES 1.3.3
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'pixman-1' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion pixman-1` -> 0
+0.40.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags pixman-1` -> 0
+-I/usr/include/pixman-1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config pixman-1 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lpixman-1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config pixman-1 --libs` -> 0
+-lpixman-1
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency pixman-1 found: YES 0.40.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-render' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb-render` -> 0
+1.14
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb-render` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-render --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb-render
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-render --libs` -> 0
+-lxcb-render
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb-render found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-damage' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb-damage` -> 0
+1.14
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb-damage` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-damage --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb-damage
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-damage --libs` -> 0
+-lxcb-damage
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb-damage found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-randr' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb-randr` -> 0
+1.14
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb-randr` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-randr --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb-randr
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-randr --libs` -> 0
+-lxcb-randr
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb-randr found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-sync' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb-sync` -> 0
+1.14
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb-sync` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-sync --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb-sync
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-sync --libs` -> 0
+-lxcb-sync
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb-sync found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-composite' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb-composite` -> 0
+1.14
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb-composite` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-composite --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb-composite
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-composite --libs` -> 0
+-lxcb-composite
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb-composite found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-shape' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb-shape` -> 0
+1.14
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb-shape` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-shape --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb-shape
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-shape --libs` -> 0
+-lxcb-shape
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb-shape found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-xinerama' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb-xinerama` -> 0
+1.14
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb-xinerama` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-xinerama --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb-xinerama
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-xinerama --libs` -> 0
+-lxcb-xinerama
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb-xinerama found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-xfixes' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb-xfixes` -> 0
+1.14
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb-xfixes` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-xfixes --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb-xfixes
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-xfixes --libs` -> 0
+-lxcb-xfixes
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb-xfixes found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-present' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb-present` -> 0
+1.14
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb-present` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-present --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb-present
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-present --libs` -> 0
+-lxcb-present
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb-present found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-glx' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb-glx` -> 0
+1.14
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb-glx` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-glx --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb-glx
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb-glx --libs` -> 0
+-lxcb-glx
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb-glx found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xcb` -> 0
+1.14
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xcb` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxcb
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xcb --libs` -> 0
+-lxcb
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency xcb found: YES 1.14
+Running compile:
+Working directory:  /home/elory/program/picom/build/meson-private/tmpn7dd1hsq
+Command line:  cc /home/elory/program/picom/build/meson-private/tmpn7dd1hsq/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=c11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("uthash.h")
+          #error "Header 'uthash.h' could not be found"
+         #endif
+        #else
+         #include <uthash.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "uthash.h" : YES 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libconfig' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libconfig` -> 0
+1.5
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags libconfig` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libconfig --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lconfig
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libconfig --libs` -> 0
+-lconfig
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency libconfig found: YES 1.5
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libpcre' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libpcre` -> 0
+8.39
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags libpcre` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libpcre --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lpcre
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libpcre --libs` -> 0
+-lpcre
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency libpcre found: YES 8.39
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gl' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gl` -> 0
+1.2
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gl` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gl --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lGL
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gl --libs` -> 0
+-lGL
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency gl found: YES 1.2
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'dbus-1' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion dbus-1` -> 0
+1.12.20
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags dbus-1` -> 0
+-I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config dbus-1 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -ldbus-1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config dbus-1 --libs` -> 0
+-ldbus-1
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency dbus-1 found: YES 1.12.20
+Program meson/install.sh found: YES (/bin/sh /home/elory/program/picom/meson/install.sh)
+Build targets in project: 1
+
+picom 8
+
+  Subprojects
+    test.h: YES
+
+Found ninja-1.10.1 at /usr/bin/ninja
+None of 'STRIP' are defined in the environment, not changing global flags.
+None of 'STRIP' are defined in the environment, not changing global flags.
